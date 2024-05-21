@@ -45,7 +45,7 @@
     1. 이미지 다운 (sudo : 현재 계정에서 root권한을 빌리는것)
         - ubuntu image를 생성하는것이다. (이미지는 굉장히 많다.)
     
-    ![Untitled](Docker-01(%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%E1%84%8F%E1%85%A5%E1%84%86%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%20-%20CIL%20mount)%202f46b706975544c5a6fc632f83706a77/Untitled%201.png)
+    ![Untitled](Docker-01(./images/%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%E1%84%8F%E1%85%A5%E1%84%86%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%20-%20CIL%20mount)%202f46b706975544c5a6fc632f83706a77/Untitled%201.png)
     
     1. 이미지 목록 출력
     
