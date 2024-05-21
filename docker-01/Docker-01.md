@@ -36,7 +36,7 @@
     
     맥에서는 [https://docs.docker.com/desktop/install/mac-install/](https://docs.docker.com/desktop/install/mac-install/) 에서 [Docker.dm](http://docker.dm/)g 다운받아서 설치하면된다.
     
-    ![my image](https://github.com/s-u-n-h-o/TIL/blob/main/docker-01/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-04-17_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.35.11.png)
+    ![my image](https://github.com/s-u-n-h-o/TIL/blob/main/docker-01/images/title1.png)
     
 2. **이미지 생성하기(pull)**
     
