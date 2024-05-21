@@ -21,7 +21,7 @@
 
 **<차이점>**
 
-![Untitled](Docker-01(%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%E1%84%8F%E1%85%A5%E1%84%86%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%20-%20CIL%20mount)%202f46b706975544c5a6fc632f83706a77/Untitled.png)
+![my image](https://github.com/s-u-n-h-o/TIL/docker-01/images/(%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%E1%84%8F%E1%85%A5%E1%84%86%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%20-%20CIL%20mount)%202f46b706975544c5a6fc632f83706a77/Untitled.png)
 
 ### 1-1. Docker
 
