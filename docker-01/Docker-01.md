@@ -49,7 +49,7 @@
     
     1. 이미지 목록 출력
     
-    ![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-01/images/%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%E1%84%8F%E1%85%A5%E1%84%86%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%20-%20CIL%20mount)%202f46b706975544c5a6fc632f83706a77/Untitled%202.png)
+    ![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-01/images/Untitled%202.png)
     
     ![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-01/images/%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%E1%84%8F%E1%85%A5%E1%84%86%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%20-%20CIL%20mount)%202f46b706975544c5a6fc632f83706a77/Untitled%203.png)
     
@@ -73,7 +73,7 @@
 
 ![스크린샷 2024-04-20 오전 12.31.58.png](https://github.com/s-u-n-h-o/TIL/blob/main/docker-01/images/%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%E1%84%8F%E1%85%A5%E1%84%86%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%20-%20CIL%20mount)%202f46b706975544c5a6fc632f83706a77/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-04-20_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_12.31.58.png)
 
-![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-01/images/%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%E1%84%8F%E1%85%A5%E1%84%86%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3%20-%20CIL%20mount)%202f46b706975544c5a6fc632f83706a77/Untitled%207.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-01/images/Untitled%207.png)
 
 <aside>
 ❗ 이제 내가 forward한 포트로 접속하면 연결된 container포트의 index.html 파일을 열어보여주는데 우리는 container를 수정하여 사용할수 있어야한다.
