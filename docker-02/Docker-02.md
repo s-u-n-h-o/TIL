@@ -1,6 +1,6 @@
 # Docker-02(네트워크)
 
-![스크린샷 2024-04-17 오후 1.28.15.png](Docker-02(%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3)%2043283eb227ed413f80112c8740c9fe15/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-04-17_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_1.28.15.png)
+![스크린샷 2024-04-17 오후 1.28.15.png](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-04-17_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_1.28.15.png)
 
 ---
 
@@ -22,7 +22,7 @@
 
 `docker network create 네트워크이름` 
 
-![Untitled](Docker-02(%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3)%2043283eb227ed413f80112c8740c9fe15/Untitled.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled.png)
 
 **2.워드프레스 + MySQL 컨테이너 연동**
 
@@ -54,9 +54,9 @@ mysql --character-set-server=utf8mb4 \
 --collation-server=utf8mb4_unicode_ci \
 ```
 
-![Untitled](Docker-02(%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3)%2043283eb227ed413f80112c8740c9fe15/Untitled%201.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled%201.png)
 
-![Untitled](Docker-02(%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3)%2043283eb227ed413f80112c8740c9fe15/Untitled%202.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled%202.png)
 
 <aside>
 ❗ 명령어를 입력하다가  mysql 컨테이너가 생성된후 2초뒤에 자동으로 종료가 되는데 명령어 오타도 아니고 한참찾았는데 
@@ -76,15 +76,15 @@ docker run \
 -e WORDPRESS_DB_PASSWORD=sunhopass wordpress
 ```
 
-![Untitled](Docker-02(%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3)%2043283eb227ed413f80112c8740c9fe15/Untitled%203.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled%203.png)
 
-![Untitled](Docker-02(%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3)%2043283eb227ed413f80112c8740c9fe15/Untitled%204.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled%204.png)
 
 **2-3. 웹브라우저로 워드프레스에 접근하여 연결되었는지 확인**
 
 - 8082 포트에 porting했기때문에 **[localhost:8082](http://localhost:8082) 에 접근해서 보면 워드프레스의 초기화면을 확인할수있다.**
     
-    ![스크린샷 2024-05-11 오후 6.59.25.png](Docker-02(%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3)%2043283eb227ed413f80112c8740c9fe15/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-05-11_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_6.59.25.png)
+    ![스크린샷 2024-05-11 오후 6.59.25.png](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-05-11_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_6.59.25.png)
     
 
 ---
