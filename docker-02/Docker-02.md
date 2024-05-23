@@ -85,7 +85,7 @@ docker run \
 
 - 8082 포트에 porting했기때문에 **[localhost:8082](http://localhost:8082) 에 접근해서 보면 워드프레스의 초기화면을 확인할수있다.**
     
-    ![스크린샷 2024-05-11 오후 6.59.25.png](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-11_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_6.59.25.png)
+    ![스크린샷 2024-05-11 오후 6.59.25.png](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/title5.png)
     
 
 ---
