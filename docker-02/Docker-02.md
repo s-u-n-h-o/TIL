@@ -23,7 +23,7 @@
 
 `docker network create 네트워크이름` 
 
-![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/Untitled.png)
 
 **2.워드프레스 + MySQL 컨테이너 연동**
 
@@ -55,9 +55,9 @@ mysql --character-set-server=utf8mb4 \
 --collation-server=utf8mb4_unicode_ci \
 ```
 
-![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled%201.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/Untitled%201.png)
 
-![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled%202.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/Untitled%202.png)
 
 <aside>
 ❗ 명령어를 입력하다가  mysql 컨테이너가 생성된후 2초뒤에 자동으로 종료가 되는데 명령어 오타도 아니고 한참찾았는데 
@@ -77,9 +77,9 @@ docker run \
 -e WORDPRESS_DB_PASSWORD=sunhopass wordpress
 ```
 
-![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled%203.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/Untitled%203.png)
 
-![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%2043283eb227ed413f80112c8740c9fe15/Untitled%204.png)
+![Untitled](https://github.com/s-u-n-h-o/TIL/blob/main/docker-02/images/Untitled%204.png)
 
 **2-3. 웹브라우저로 워드프레스에 접근하여 연결되었는지 확인**
 
